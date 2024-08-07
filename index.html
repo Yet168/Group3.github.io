@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> YET_COMPANY </title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shorcut icon" type="x-icon" href="img/lam.jpg">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- header section stars -->
+    <header class="header">
+        <!-- <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> CAR SHOP </a> -->
+
+        <a href="#" class="nav-logo">
+            <img src="img/yet1.avif" alt="Logo" class="logo-image">
+            <h2 class="logo-text"> Company​ </h2>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#team"> MY TEAM </a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#motorcycles"> MOTORCYCLES </a>
+            <a href="#cars"> CARS</a>
+            <a href="#airplane">AIRPLANE</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="img/ariplan4.avif" alt="">
+                <div class="content">
+                    <h3>Airplane FG170RR</h3>
+                    <span class="price">$4.6 L/-</span>
+                    <span class="quantity">qty :1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="img/bugitti1.jpg" alt="">
+                <div class="content">
+                    <h3>Bugatii FG267RR</h3>
+                    <span class="price">$2.5 L/-</span>
+                    <span class="quantity">qty :1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="img/motor.webp" alt="">
+                <div class="content">
+                    <h3>BMW FG270RR</h3>
+                    <span class="price">$1.5 L</span>
+                    <span class="quantity">qty :1</span>
+                </div>
+            </div>
+
+            <div class="total"> total : $7.5 L/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an accoun <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3> Welcome To My <span>​​​​ MOTORCYCLES_CAR_AIRPLANE </span> Company​</h3>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+    </section>
+    
+
+    <section class="team" id="team">
+
+        <h1 class="heading"> MY <span> TEAMWORKS </span></h1>
+        <div class="swiper team-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/bormey.jpg" alt="">
+                    <p> CEO of the motorcycles,cars and aircraft sales company. </p>
+                    <h3>Hong puthbormey</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/niza.jpg" alt="">
+                    <p> CEO of the motorcycles,cars and aircraft sales company. </p>
+                    <h3>Keo Pholchomruen Niza</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/yet1.jpg" alt="">
+                    <p> CEO of the motorcycles,cars and aircraft sales company. </p>
+                    <h3>Kry Yet</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/thida.jpg" alt="">
+                    <p> CEO of the motorcycles,cars and aircraft sales company. </p>
+                    <h3>Dy Thyda</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/nern.jpg" alt="">
+                    <p> CEO of the motorcycles,cars and aircraft sales company. </p>
+                    <h3>Seng noeun</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/nam born reach.jpg" alt="">
+                    <p> CEO of the motorcycles,cars and aircraft sales company. </p>
+                    <h3>Nam pichvannareach</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="products" id="products">
+        <h1 class="heading"> OUR <span> PRODUCTS </span></h1>
+
+        <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/airplan4.jpg" alt="">
+                    <h3>Airplane F350</h3>
+                    <div class="price"> $4millions/- - 5millions/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/airplan3.jpg" alt="">
+                    <h3>Airplane G360</h3>
+                    <div class="price"> $3.5millions/- - 4millions/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/tesla4.png" alt="">
+                    <h3>Tesla M150</h3>
+                    <div class="price"> $100.000/- - 110.000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/rollse royse2.avif" alt="">
+                    <h3>Rolls Royce</h3>
+                    <div class="price"> $200.000/- - 250.000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/bmw.jpg" alt="">
+                    <h3>BMW F120cc</h3>
+                    <div class="price"> $5.000/- - 5.500/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/motor.webp" alt="">
+                    <h3>YAMAHA F170CC</h3>
+                    <div class="price"> $5.000/- - 6.000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/bugatti_.jpg" alt="">
+                    <h3>BUGATII GR700</h3>
+                    <div class="price"> 1millions/- - 1.5millions/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/lamborgnihi.webp" alt="">
+                    <h3>LAMBORGHINI FR200</h3>
+                    <div class="price"> $1millions/- - 1.6millions/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="motorcycles" id="motorcycles">
+        <h1 class="heading">PRODUCTS <span>MOTORCYCLES</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/photo6.jpg" alt="">
+                <h3>Cruiser</h3>
+                <p>A cruiser is a type of warship. Modern cruisers are generally the largest ships in a fleet after aircraft carriers and amphibious assault ships, and can usually perform several operational roles from search-and-destroy to ocean escort to sea denial. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="box">
+                <img src="img/photo10.webp" alt="">
+                <h3>Tricycle</h3>
+                <p>Some tricycles, such as cycle rickshaws (for passenger transport) and freight trikes, are used for commercial purposes, especially in the developing world, particularly Africa and Asia.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="box">
+                <img src="img/photo8.jpg" alt="">
+                <h3>Sport Bike</h3>
+                <p>A sport bike, sports motorcycle, or sports bike is a motorcycle designed and optimized for speed, acceleration, braking, and cornering on asphalt concrete race tracks and roads. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="box">
+                <img src="img/photo9.webp" alt="">
+                <h3>Touring</h3>
+                <p>The new BMW 3 Series Touring combines the versatility and everyday driving practicality of a Touring with sporty driving dynamics and well-conceived comfort. The exterior has an athletic and elegant appearance.  </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="cars" id="cars">
+        <h1 class="heading"> PRODUCTS <span>NEW CARS</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/rollse royse.webp" alt="">
+                <h3>Rolls Royce </h3>
+                <p>Rolls-Royce Phantom is available in Petra Gold.Rolls-Royce Phantom is also available in Midnight Sapphire.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now </a>
+            </div>
+
+            <div class="box">
+                <img src="img/escalade.jpg" alt="">
+                <h3>Cadillac Escalade</h3>
+                <p>The Cadillac Escalade is a full-size luxury SUV manufactured by General Motors and marketed by their luxury division Cadillac. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now </a>
+            </div>
+
+            <div class="box">
+                <img src="img/car11.webp" alt="">
+                <h3>Lamborgnihi</h3>
+                <p>There are a total of 3 Lamborghini models currently on sale in India. These include 1 Convertible, 1 SUV and 1 Coupe.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now </a>
+            </div>
+
+            <div class="box">
+                <img src="img/car10.jpg" alt="">
+                <h3>Lexus Lx 570</h3>
+                <p>The price of the 2021 Lexus LX starts at $88,700 and goes up to $92,875 depending on the trim and options. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Buy Now </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="airplane" id="airplane">
+        <h1 class="heading"> PRODUCTS <span>AIRPLANE</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/photo2.webp" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-barcode"></i></i> $4.5millions</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 5st August 2024</a>
+                    </div>
+                    <h3>Aeroplane FG790RR</h3>
+                    <p>Aeroplan is the frequent-flyer program[1] owned by Air Canada, Canada's flag carrier. The Aeroplan program was created in July 1984 by Air Canada as an incentive program for its frequent flyer customers..
+                       </p>
+                    <a href="#" class="btn"> Buy Now </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/photo3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-barcode"></i></i> 5.2millions</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 1st August 2024</a>
+                    </div>
+                    <h3>Aeroplane F375RR</h3>
+                    <p>Aeroplan Members travel more, and travel better. With great features for every step of their journey, there are more ways to earn, more rewards, and more benefits. Become a member today..</p>
+                    <a href="#" class="btn"> Buy Now </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="footer">
+
+        <center><div class="title">
+            <h1 class="heading"> Google Maps </h1>
+            
+          </div></center>
+
+        <div class="location container">
+           <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250151.16276331677!2d104.72536794491234!3d11.579654017598822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513dc76a6be3%3A0x9c010ee85ab525bb!2sPhnom%20Penh!5e0!3m2!1sen!2skh!4v1722739405757!5m2!1sen!2skh" 
+            width="980" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+           </iframe></center>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> CAR SHOP<i class="fa-duotone fa-solid fa-shop"></i></i></h3>
+                <p>Welcome to my Website Products Shopping.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +588 979167476 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +588 979167476 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> yetsmos@gmial.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> phnom penh, cambodia - 400104 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> HOME </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> TEAM  </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> PRODUCTS </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> MOTORCYCLES </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> CARS</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>  AIRPLANE </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="p1.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+        <div class="creadit"> create by <span> Assignment Group 03 </span> | all rights reserved </div>
+        
+
+    </section>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
